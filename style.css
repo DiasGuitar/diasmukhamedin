@@ -197,6 +197,16 @@ section {
   margin: auto 0;
 }
 
+.section__pic-container img {
+  max-height: 23vw;
+  aspect-ratio: 1 / 1;
+  object-fit: cover;
+  object-position: center top;
+  display: flex;
+  margin: auto 0;
+  border-radius: 50%;
+}
+
 .section__text {
   align-self: center;
   text-align: center;
@@ -329,10 +339,10 @@ section {
   height: 80%;
 }
 
-.section__pic-container {
-  height: 400px;
-  width: 400px;
+.section-container .section__pic-container img {
+  max-height: 23vw;
   margin: auto 0;
+  aspect-ratio: 1 / 1;
 }
 
 /* SKILLS SECTION */

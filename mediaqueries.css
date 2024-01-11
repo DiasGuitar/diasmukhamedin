@@ -19,7 +19,7 @@
   #hamburger-nav {
     display: flex;
   }
-  #experience,
+  #skills,
   .experience-details-container {
     margin-top: 2rem;
   }
@@ -38,9 +38,16 @@
     margin: 0 5%;
   }
   .section__pic-container {
-    width: 275px;
-    height: 275px;
+    min-height: 50vw;
+    justify-content: center;
     margin: 0 auto 2rem;
+  }
+  .section__pic-container img {
+    text-align: center;
+    min-height: 46vw;
+    aspect-ratio: 1 / 1;
+    object-fit: cover;
+    object-position: center top;
   }
   .about-containers {
     margin-top: 0;
@@ -55,6 +62,10 @@
   #profile {
     height: 83vh;
     margin-bottom: 0;
+    z-index: 4;
+  }
+  #about {
+    z-index: -1;
   }
   article {
     font-size: 1rem;
@@ -88,8 +99,9 @@
   }
   .section__pic-container {
     width: auto;
-    height: 46vw;
+    max-height: 69vw;
     justify-content: center;
+    margin: 0 auto;
   }
   .section__text__p2 {
     font-size: 1.25rem;
@@ -99,5 +111,12 @@
   }
   .text-container {
     text-align: justify;
+  }
+  .section__pic-container img {
+    min-height: 65vw;
+    margin: auto 0;
+    aspect-ratio: 1 / 1;
+    object-fit: cover;
+    object-position: center top;
   }
 }
